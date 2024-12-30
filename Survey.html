@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Survey.css">
+    <title>_zer011 survey form</title>
+  </head>
+  <body>
+    <header>
+        <h1 id="title">_zer011 Cafe Survey Form</h1>
+         <p id="description">Thank you for being part of this survey..!</p>
+    </header>
+    <form id="survey-form" action="">
+        <div class="Section1">
+            <label id="name-label">Name:
+                <input id="name" type="text" required placeholder="John Cena">
+            </label>
+            <label id="email-label">Email:
+                <input id="email" type="email" required placeholder="example@gmail.com">
+            </label>
+            <label id="number-label">Age:
+                <input id="number" type="number" min="16" max="100" placeholder="Age(years)">
+            </label>
+            <label id="ExtraInfo">Occupation:
+                <select id="dropdown">
+                    <option>Select one</option>
+                    <option>Student</option>
+                    <option>Employee</option>
+                    <option>Pensioner</option>
+                    <option>Enterprneur</option>
+                    <option>Other</option>
+                </select>
+            </label>
+        </div>
+    <div class="Section2">
+        <label id="HYKnow">How did you know about us?</label>
+        <label>
+            <input name="Discovery" type="radio" value="Media">
+            Social Media
+        </label>
+        <label>
+            <input name="Discovery" type="radio" value="Internet">
+            Internet
+        </label>
+        <label>
+            <input name="Discovery" type="radio" value="Referral">
+            Referred by a Friend
+        </label>
+        <label>
+            <input name="Discovery" type="radio" value="Other">
+            Other
+        </label>
+        <label id="Services">What can you say about _zer011 Cafe?</label>
+        <label>
+            <input type="checkbox" value="GoodService">
+            Their customer service is good
+        </label>
+        <label>
+            <input type="checkbox" value="BadService">
+            Their customer service is not good
+        </label>
+        <label>
+            <input type="checkbox" value="GoodFood">
+            I like their food
+        </label>
+        <label>
+            <input type="checkbox" value="BadFood">
+            I do not like their food
+        </label>
+        <label>
+            <input type="checkbox" value="GoodHyegine">
+            The environment is very hyeginic
+        </label>
+        <label>
+            <input type="checkbox" value="BadHyegine">
+            The environment is not clean and hyeginic
+        </label>
+        <label>
+            <input type="checkbox" value="GoodSafety">
+            I feel safe while having my food
+        </label>
+        <label>
+            <input type="checkbox" value="BadSafety">
+            I do not feel safe in this area
+        </label>
+    </div>
+    <div class="Section3">
+        <label id="Suggestions">Any suggestions or recommendations for improvement?</label>
+        <textarea placeholder="Enter your suggestion here..."></textarea>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+    </form>
+  </body>
+</html>

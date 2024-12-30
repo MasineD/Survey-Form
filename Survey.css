@@ -1,0 +1,93 @@
+body{
+    background-image: url("Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+body h1{
+    text-align: center;
+    color: grey;
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-shadow: 10px 2px 10px aqua;
+}
+body input{
+    font-size: 15px;
+}
+#description{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    text-decoration: underline;
+    color: lime;
+}
+#survey-form{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-top: 200px ; */
+    border: 2px solid aqua;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+.Section1 label input{
+    display: block;
+    margin-bottom: 10px;
+}
+.Section2 label{
+    display: block;
+}
+select{
+    display: block;
+}
+textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 98%;
+    height: 150px;
+    font-size: 15px;
+}
+#number, #email, #name{
+    width: 98%;
+    height: 30px;
+}
+#dropdown{
+    width: 98%;
+    height: 30px;
+    margin-left: 2.5px;
+}
+#HYKnow, #Services, #number-label, #email-label, #name-label, #ExtraInfo{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 10px;
+}
+/* Styling the button */
+button{
+    display: block;
+    margin: 20px 0 20px 2.5px;
+    width: 98%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    background: silver;
+    border: 2px solid lime;
+    box-shadow: 10px 0 20px lime, -10px 0 20px lime, 0 10px 20px lime, 0 -10px 20px lime;
+}
+button:hover{
+    background: lime;
+    color: silver;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Section3{
+    padding-top: 10px;
+}
